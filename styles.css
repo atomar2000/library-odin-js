@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#page-titile {
+    font-size: xx-large;
+}
+
+#ul-lib-books {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#add-more-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 0px 5px 0px rgb(0, 0, 0); */
+    height: 50px;
+}
+
+.book-card {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 25%;
+    font-size: larger;
+}
+
+#remove-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+#remove-btn {
+    padding: 5px 8px 5px 8px;
+    margin-left: 5px;
+}
+
+#read-btn-selected{
+    background-color: rgb(117, 255, 147);
+    color: white;
+}
+
+#remove-btn:hover {
+    background-color: red;
+    color: white
+}
+
+#read-btn:hover {
+    background-color: rgb(71, 171, 238);
+    color: white
+}
+
+#show-more-btn {
+    margin-top: 20px;
+    padding: 10px;
+    width: fit-content;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#show-more-plus {
+    font-size: large;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#input-dialog-container {
+    display: flex;
+    flex-direction: column;
+}
+
+::backdrop {
+    background-image: linear-gradient(
+      45deg,
+      #858484,
+    );
+    opacity: 0.75;
+  }
+  
+
+button {
+    padding: 5;
+    border: 1px solid black;
+    border-radius: 0.1em;
+    background: white;
+    /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%); */
+    transition: background-color 100ms linear;
+}
+
+button:hover {
+    background-color: rgb(255, 253, 153);
+    transition: background-color 100ms linear;
+}
